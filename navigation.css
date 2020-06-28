@@ -1,0 +1,15 @@
+/* You can edit this whole document */
+.desktop-nav a{
+  background-color: #000000;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .desktop-nav{
+    display: block;
+  }
+  .desktop-nav a{
+    padding: 10px;
+  }
+}

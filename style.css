@@ -1,0 +1,88 @@
+/* DO NOT edit until next comment */
+body{
+  width: calc(100% - 40px);
+  margin: 0;
+  padding: 20px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  margin: auto;
+  padding: 50px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+
+img{
+  width: fit-content;
+  max-width: 100%;
+  margin: auto;
+}
+
+.gif{
+  border: 7px double #1C6EA4;
+}
+
+figcaption{
+  margin: auto;
+  font-size: small;
+  font-style: italic;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  width: 100%;
+  margin: 60px auto;
+}
+
+.quote{
+  border: 1px #000000 solid;
+  display: block;
+  width: fit-content;
+  padding: 5px;
+}
+
+.green-list li{
+  color: #008000;
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+/* DO NOT edit above this line */
+
+#wrapper{
+  padding: 80px 60px;
+  background-color: #ffd700;
+  transition: background-color 0.5s ease;
+  margin: 30px auto;
+}
+
+#link{
+  padding: 20px;
+  background-color: #ffa500;
+  color: #29008c;
+  transition: inherit;
+}
+
+#link:hover{
+  background-color: #ff4500;
+}
+
+.red, .green-list .red{
+  color: #ff0000;
+}
